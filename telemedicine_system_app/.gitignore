@@ -1,0 +1,30 @@
+### --- Visual Studio / C# Specifics --- ###
+*.swp
+*.[Oo]bj
+*.user
+*.userprefs
+*.sln.docstates
+bin/
+obj/
+packages/
+.vs/
+TestResults/
+
+### --- Python Specifics --- ###
+telemed_env/
+__pycache__/
+*.py[cod]
+.env
+.vscode/
+
+### --- Database & OS Specifics --- ###
+.DS_Store
+*.log
+*.tmp
+*.bak
+.env
+<<<<<<< HEAD
+secrets.json
+=======
+secrets.json
+>>>>>>> 6e1058a (feat: add telemedicine winforms app in telemed_app folder)
